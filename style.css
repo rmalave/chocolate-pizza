@@ -1,0 +1,91 @@
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  margin-right: 10px;
+}
+
+.site-name {
+    float: left;
+}
+.site-name .name {
+  font-family: Pacifico, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.site-name .slogan {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: gray;
+  padding-top: 5px;
+}
+
+.header-social {
+  float: right;
+}
+
+#social-list {
+  margin: 0;
+}
+.header-social .social-icon {
+  display: inline-block;
+}
+
+/* Article */
+.article-head {
+    margin-bottom: 30px;
+}
+.article-head h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.article-head .meta {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 12px;
+}
+
+.print {
+    float: right;
+}
+
+.print span {
+    float: right;
+    color: gray;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    line-height: 1;
+}
+
+.body p {
+  text-indent: 30px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+/*recipe */
+.recipe form {
+    -webkit-columns: 100px 2;
+    -moz-columns: 100px 2;
+    columns: 100px 2;
+
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 75px 40px 112px 40px;
+}
+
+.recipe {
+    background-image: url('img/list-bg.png');
+}
